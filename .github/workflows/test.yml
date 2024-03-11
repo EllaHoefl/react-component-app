@@ -20,9 +20,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      # Need this for chromatic
-      with:
-        fetch-depth: 0 # fetch full history
+        # Need this for Chromatic
+        with:
+          fetch-depth: 0 # fetch full history
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
