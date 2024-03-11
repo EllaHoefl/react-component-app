@@ -45,7 +45,7 @@ Small.args = {
 export const Red = Template.bind({});
 Red.args = {
   label: "Red",
-  backgroundColor: "##ffb6b6",
+  backgroundColor: "#ffb6b6",
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
