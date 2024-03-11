@@ -27,4 +27,4 @@ jobs:
         uses: npm install
 
       - name: Run the cases
-        uses: npm test
+        uses: npm run test
