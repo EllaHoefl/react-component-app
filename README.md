@@ -1,3 +1,6 @@
+[![Test CI](https://github.com/EllaHoefl/react-component-app/actions/workflows/test.yml/badge.svg)](https://github.com/EllaHoefl/react-component-app/actions/workflows/test.yml)
+[![codecov](https://codecov.io/github/EllaHoefl/react-component-app/graph/badge.svg?token=DKI76NG06U)](https://codecov.io/github/EllaHoefl/react-component-app)
+
 # react-component-app
 
 React &amp; Storybook Course
