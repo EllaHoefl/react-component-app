@@ -1,0 +1,37 @@
+
+> react-component-app@0.1.0 build-storybook
+> storybook build --output-dir /tmp/chromatic--121603-Oewd2V0eafCi
+
+@storybook/cli v7.6.17
+
+info => Cleaning outputDir: /tmp/chromatic--121603-Oewd2V0eafCi
+info => Loading presets
+info => Building manager..
+info => Manager built (183 ms)
+info => Building preview..
+info => Copying static files: /home/ella/Code/react-component-app/node_modules/@storybook/manager/static at /tmp/chromatic--121603-Oewd2V0eafCi/sb-common-assets
+info Using SWC compiler
+info Addon-docs: using MDX2
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack5 setup
+info => Copying static files: /home/ella/Code/react-component-app/public at /tmp/chromatic--121603-Oewd2V0eafCi/
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   7a58d2cb9a6358f85e9b.png (456 KiB)
+WARN   609.70f693a2.iframe.bundle.js (655 KiB)
+WARN   71.37963705.iframe.bundle.js (581 KiB)
+WARN   126.ce6f007d.iframe.bundle.js (719 KiB)
+WARN   180.c739d22f.iframe.bundle.js (958 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (985 KiB)
+WARN       runtime~main.9822c6dc.iframe.bundle.js
+WARN       180.c739d22f.iframe.bundle.js
+WARN       main.a19e6412.iframe.bundle.js
+WARN       static/css/main.4f40b6bf.css
+WARN 
+info => Preview built (7.83 s)
+info => Output directory: /tmp/chromatic--121603-Oewd2V0eafCi

@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_7434dccac20bd61"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,7 @@
     "@storybook/react-webpack5": "^7.6.17",
     "@storybook/test": "^7.6.17",
     "autoprefixer": "^10.4.18",
+    "chromatic": "^11.0.7",
     "eslint-plugin-storybook": "^0.8.0",
     "postcss": "^8.4.35",
     "prop-types": "^15.8.1",
